@@ -18,13 +18,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Read Input
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        // Move based on Input
         Vector2 movementVector = new Vector2(horizontalInput, verticalInput).normalized;
         rigid.linearVelocity = movementVector * moveSpeed;
+        animator.SetInteger("YVelocity", (int)rigid.linearVelocityY);
 
         HandleDirection(horizontalInput);
     }
@@ -32,14 +31,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleDirection(float horizontalInput)
     {
-        // Flip the sprite to face the direction of movement
         if (horizontalInput > 0)
         {
-            transform.localScale = new Vector2(-1, 1); // Facing Right
+            transform.localScale = new Vector2(-1, 1); 
         }
         else if (horizontalInput < 0)
         {
-            transform.localScale = new Vector2( 1, 1);  // Facing Left
+            transform.localScale = new Vector2( 1, 1);
         }
     }
 

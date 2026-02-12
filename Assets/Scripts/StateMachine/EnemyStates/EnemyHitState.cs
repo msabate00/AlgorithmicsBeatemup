@@ -5,7 +5,7 @@ public class EnemyHitState : State
 {
     private Enemy enemy;
     private Rigidbody2D rigid => enemy.rigid;
-    private SpriteRenderer spriteRenderer => enemy.sprite; // We need this to offset the visual height
+    private SpriteRenderer spriteRenderer => enemy.sprite;
 
     [Header("Knockback Settings")]
     public float groundDrag = 2f;      // How fast they slow down sliding
@@ -15,8 +15,8 @@ public class EnemyHitState : State
 
     // State Variables
     private Vector2 pushDirection;
-    private float verticalVelocity;    // Fake Z-axis speed
-    private float currentHeight;       // Current Fake Z-height
+    private float verticalVelocity;
+    private float currentHeight;
     private bool isAirborne;
 
     public State stateToTransitionTo;
@@ -46,7 +46,6 @@ public class EnemyHitState : State
             // Set Initial Velocities
             verticalVelocity = initialJumpForce; // Launch UP (Fake Z)
             rigid.linearVelocity = pushDirection * slideSpeed; // Slide BACK (Ground)
-            print("Hit enemy velocity is " + rigid.linearVelocity.ToString());
             isAirborne = true;
 
             // Trigger Animation
@@ -78,7 +77,6 @@ public class EnemyHitState : State
         spriteRenderer.transform.localPosition = new Vector3(0, currentHeight, 0);
 
         // Handle Ground Sliding
-        // Apply manual drag to slow down the slide over time
         rigid.linearVelocity = Vector2.Lerp(rigid.linearVelocity, Vector2.zero, groundDrag * Time.deltaTime);
 
         // Check for Landing
@@ -98,14 +96,11 @@ public class EnemyHitState : State
         // Snap sprite back to 0,0 local position
         spriteRenderer.transform.localPosition = Vector3.zero;
 
-        // Play landing anim/sound
-        // enemy.animator.SetTrigger("Knockback_Land");
-
         // Go back to fighting logic
         TransitionTo(stateToTransitionTo.name);
     }
 
-    // Safety check: Ensure sprite is reset if state exits forcefully
+    // Ensure sprite is reset if state exits forcefully
     public override void Exit()
     {
         spriteRenderer.transform.localPosition = Vector3.zero;
