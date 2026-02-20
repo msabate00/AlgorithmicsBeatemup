@@ -10,20 +10,18 @@ public class EnemyChaseState : State
 
     void Start()
     {
-        enemy = GetComponentInParent<Enemy>(); // reference to the enemy
+        enemy = GetComponentInParent<Enemy>();
     }
 
     public override void LogicUpdate()
     {
         Vector2 directionToPlayer = (enemy.player.transform.position - transform.position).normalized;
-        //   .velocity in older versions of Unity
 
         rigid.linearVelocity = directionToPlayer * chaseSpeed;
 
         if (Vector2.Distance(transform.position, enemy.player.transform.position) <= atkDistance)
         {
             TransitionTo("EnemyAttackState");
-            //currentState = LongmoanState.Attack;
         }
     }
 

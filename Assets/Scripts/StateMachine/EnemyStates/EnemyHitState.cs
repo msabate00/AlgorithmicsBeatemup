@@ -47,14 +47,9 @@ public class EnemyHitState : State
             verticalVelocity = initialJumpForce; // Launch UP (Fake Z)
             rigid.linearVelocity = pushDirection * slideSpeed; // Slide BACK (Ground)
             isAirborne = true;
-
-            // Trigger Animation
-            enemy.animator.SetTrigger("Hit");
         }
         else
         {
-            // Just a small flinch, no flying
-            enemy.animator.SetTrigger("Hurt");
             TransitionTo(stateToTransitionTo.name); // Recover to selected state
         }
     }
