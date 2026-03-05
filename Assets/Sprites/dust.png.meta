@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 860568be8ef52b24aa141a9060f496ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2292396745656697457
+    second: toppng.com-dust-smoke-pattern-png-478x423_0
+  - first:
+      213: 5977522827072185008
+    second: toppng.com-dust-smoke-pattern-png-478x423_1
+  - first:
+      213: 2305049480429532146
+    second: toppng.com-dust-smoke-pattern-png-478x423_2
+  - first:
+      213: -5607243534441870508
+    second: toppng.com-dust-smoke-pattern-png-478x423_3
+  - first:
+      213: -5975964315025640213
+    second: toppng.com-dust-smoke-pattern-png-478x423_4
+  - first:
+      213: -7196690962364444157
+    second: toppng.com-dust-smoke-pattern-png-478x423_5
+  - first:
+      213: 361927900361111423
+    second: toppng.com-dust-smoke-pattern-png-478x423_6
+  - first:
+      213: -2415379489900868298
+    second: toppng.com-dust-smoke-pattern-png-478x423_7
+  - first:
+      213: -7136866805337599106
+    second: toppng.com-dust-smoke-pattern-png-478x423_8
+  - first:
+      213: -4222411628138930244
+    second: toppng.com-dust-smoke-pattern-png-478x423_9
+  - first:
+      213: 5742430296368331029
+    second: toppng.com-dust-smoke-pattern-png-478x423_10
+  - first:
+      213: -463899655224991720
+    second: toppng.com-dust-smoke-pattern-png-478x423_11
+  - first:
+      213: -5744141371122984967
+    second: toppng.com-dust-smoke-pattern-png-478x423_12
+  - first:
+      213: 8991988785517554404
+    second: toppng.com-dust-smoke-pattern-png-478x423_13
+  - first:
+      213: 8417568839829177356
+    second: toppng.com-dust-smoke-pattern-png-478x423_14
+  - first:
+      213: -8643552288782667540
+    second: toppng.com-dust-smoke-pattern-png-478x423_15
+  - first:
+      213: -5697336976490106147
+    second: toppng.com-dust-smoke-pattern-png-478x423_16
+  - first:
+      213: 4170367118874082989
+    second: toppng.com-dust-smoke-pattern-png-478x423_17
+  - first:
+      213: 604740095506431407
+    second: toppng.com-dust-smoke-pattern-png-478x423_18
+  - first:
+      213: 4502851434146671831
+    second: toppng.com-dust-smoke-pattern-png-478x423_19
+  - first:
+      213: 8574897719103076091
+    second: toppng.com-dust-smoke-pattern-png-478x423_20
+  - first:
+      213: -6961533463119779416
+    second: toppng.com-dust-smoke-pattern-png-478x423_21
+  - first:
+      213: -9020297606359709185
+    second: toppng.com-dust-smoke-pattern-png-478x423_22
+  - first:
+      213: 6049340005392507622
+    second: toppng.com-dust-smoke-pattern-png-478x423_23
+  - first:
+      213: 8817131722625532935
+    second: toppng.com-dust-smoke-pattern-png-478x423_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 674
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172012dc1ba30df10800000000000000
+      internalID: 2292396745656697457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b22d68475d64f250800000000000000
+      internalID: 5977522827072185008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 609
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f373be2a4e2dff10800000000000000
+      internalID: 2305049480429532146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 596
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b8c70c6b11f22b0800000000000000
+      internalID: -5607243534441870508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 591
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be47c741e1c111da0800000000000000
+      internalID: -5975964315025640213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 591
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302d00e03b7302c90800000000000000
+      internalID: -7196690962364444157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 593
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77b35ff183d50500800000000000000
+      internalID: 361927900361111423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_7
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 591
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dc1b2b629da7ed0800000000000000
+      internalID: -2415379489900868298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 442
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73539a0471c4fc90800000000000000
+      internalID: -7136866805337599106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 430
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfdc49defaf665c0800000000000000
+      internalID: -4222411628138930244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 424
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519b97a0ee531bf40800000000000000
+      internalID: 5742430296368331029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 402
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81063eea8b5ef89f0800000000000000
+      internalID: -463899655224991720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7d6925bd5b840b0800000000000000
+      internalID: -5744141371122984967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 345
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae119a826f9cc70800000000000000
+      internalID: 8991988785517554404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 388
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c044a6af24631d470800000000000000
+      internalID: 8417568839829177356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 373
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce038952dfeeb0880800000000000000
+      internalID: -8643552288782667540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_16
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 343
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2fb96a43efee0b0800000000000000
+      internalID: -5697336976490106147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae757f8cce10e930800000000000000
+      internalID: 4170367118874082989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 234
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadb81ea9e7746800800000000000000
+      internalID: 604740095506431407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 212
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcaba0b5875d7e30800000000000000
+      internalID: 4502851434146671831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 149
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf632743b08200770800000000000000
+      internalID: 8574897719103076091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 114
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a920c6f23aa36f90800000000000000
+      internalID: -6961533463119779416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 70
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff98f9c5e1771d280800000000000000
+      internalID: -9020297606359709185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2eaf22fa293f350800000000000000
+      internalID: 6049340005392507622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-dust-smoke-pattern-png-478x423_24
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 74
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044ce8269ebc5a70800000000000000
+      internalID: 8817131722625532935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toppng.com-dust-smoke-pattern-png-478x423_0: 2292396745656697457
+      toppng.com-dust-smoke-pattern-png-478x423_1: 5977522827072185008
+      toppng.com-dust-smoke-pattern-png-478x423_10: 5742430296368331029
+      toppng.com-dust-smoke-pattern-png-478x423_11: -463899655224991720
+      toppng.com-dust-smoke-pattern-png-478x423_12: -5744141371122984967
+      toppng.com-dust-smoke-pattern-png-478x423_13: 8991988785517554404
+      toppng.com-dust-smoke-pattern-png-478x423_14: 8417568839829177356
+      toppng.com-dust-smoke-pattern-png-478x423_15: -8643552288782667540
+      toppng.com-dust-smoke-pattern-png-478x423_16: -5697336976490106147
+      toppng.com-dust-smoke-pattern-png-478x423_17: 4170367118874082989
+      toppng.com-dust-smoke-pattern-png-478x423_18: 604740095506431407
+      toppng.com-dust-smoke-pattern-png-478x423_19: 4502851434146671831
+      toppng.com-dust-smoke-pattern-png-478x423_2: 2305049480429532146
+      toppng.com-dust-smoke-pattern-png-478x423_20: 8574897719103076091
+      toppng.com-dust-smoke-pattern-png-478x423_21: -6961533463119779416
+      toppng.com-dust-smoke-pattern-png-478x423_22: -9020297606359709185
+      toppng.com-dust-smoke-pattern-png-478x423_23: 6049340005392507622
+      toppng.com-dust-smoke-pattern-png-478x423_24: 8817131722625532935
+      toppng.com-dust-smoke-pattern-png-478x423_3: -5607243534441870508
+      toppng.com-dust-smoke-pattern-png-478x423_4: -5975964315025640213
+      toppng.com-dust-smoke-pattern-png-478x423_5: -7196690962364444157
+      toppng.com-dust-smoke-pattern-png-478x423_6: 361927900361111423
+      toppng.com-dust-smoke-pattern-png-478x423_7: -2415379489900868298
+      toppng.com-dust-smoke-pattern-png-478x423_8: -7136866805337599106
+      toppng.com-dust-smoke-pattern-png-478x423_9: -4222411628138930244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

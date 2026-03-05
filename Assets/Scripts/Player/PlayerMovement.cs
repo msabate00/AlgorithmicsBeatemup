@@ -28,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
         HandleDirection(horizontalInput);
     }
 
+    public void PlayFootVFX()
+    {
+        FootDustVfx.instance.EmitDust();
+    }
+
 
     private void HandleDirection(float horizontalInput)
     {

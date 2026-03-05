@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 5834551768370570735}
   - component: {fileID: 373043010381129291}
   - component: {fileID: 2608026685504384647}
-  - component: {fileID: 3854427160452321806}
   m_Layer: 0
   m_Name: SFX
   m_TagString: Untagged
@@ -283,24 +282,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3854427160452321806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4031929953868405202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca20e74834c973458aeeb1ec3d5ab49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 2608026685504384647}
-  dirt:
-  - {fileID: 8300000, guid: d7a96a5095ec0d24f853786811e218c0, type: 3}
-  - {fileID: 8300000, guid: 32a3234567b78c94f8ca4083eefd92a9, type: 3}
-  - {fileID: 8300000, guid: 14919c177f24a2c40b0020d0d53371cd, type: 3}
-  pitchRange: {x: 0.95, y: 1.05}
 --- !u!1 &5586652119831494625
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +377,8 @@ GameObject:
   - component: {fileID: 7328940030375709736}
   - component: {fileID: 6482582021088754088}
   - component: {fileID: 5343588451710072323}
+  - component: {fileID: 6873353485319888745}
+  - component: {fileID: 7279295949946847151}
   m_Layer: 0
   m_Name: Gilius
   m_TagString: Untagged
@@ -658,3 +641,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8091593, y: 4.211647}
   m_EdgeRadius: 0
+--- !u!114 &6873353485319888745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7663635189432936691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9300d34e3fa727448ac565cee00648b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitImpactPrefab: {fileID: 5832432598130146707, guid: 9d898b25219b2d8448895b32f0112af0, type: 3}
+--- !u!114 &7279295949946847151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7663635189432936691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca20e74834c973458aeeb1ec3d5ab49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 2608026685504384647}
+  dirt:
+  - {fileID: 8300000, guid: d7a96a5095ec0d24f853786811e218c0, type: 3}
+  - {fileID: 8300000, guid: 32a3234567b78c94f8ca4083eefd92a9, type: 3}
+  - {fileID: 8300000, guid: 14919c177f24a2c40b0020d0d53371cd, type: 3}
+  pitchRange: {x: 0.95, y: 1.05}

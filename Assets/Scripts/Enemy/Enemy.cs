@@ -36,6 +36,7 @@ public class Enemy : MonoBehaviour
 
     protected virtual void ReceiveDamage()
     {
+        
         hp--;
 
         if (hp <= 0)
@@ -53,11 +54,13 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerAttack"))
-        {
-            ReceiveDamage();
-            ReceiveKnockBack();
-        }
+        if (!collision.CompareTag("PlayerAttack")) return;
+
+        Vector3 hitPos = collision.ClosestPoint(transform.position);
+        VfxSpawner.instance.HitImpact(hitPos);
+
+        ReceiveDamage();
+        ReceiveKnockBack();
     }
 
     void Die()
