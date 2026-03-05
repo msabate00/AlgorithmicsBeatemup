@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rigid;
     private SpriteRenderer spriteRenderer;
-    private Animator animator; 
+    private Animator animator;
 
     void Awake()
     {

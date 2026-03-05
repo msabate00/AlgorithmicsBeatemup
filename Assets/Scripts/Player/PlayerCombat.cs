@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public RandomSfxPlayer sfxPlayer;
+
     [Header("Attack Settings")]
     public float attackDamage = 10f;
 
@@ -34,6 +36,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
+        sfxPlayer.PlayHit();
+
         if (animator != null)
         {
             animator.SetTrigger("Attack");
